@@ -1,100 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My Portfolio</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Varela" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-    <link rel="icon" sizes="16x16" href="assets/img/favicon.ico">
-    <link rel="manifest" href="assets/img/manifest.json">
-    <link rel="mask-icon" href="assets/img/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angela Ogares | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
 
-    <div id="top" class="hero background-overlay">
-    
+    <!-- Background Particles -->
+    <div id="particles-js"></div>
+
+    <!-- Header Section -->
+    <header id="top" class="hero">
         <div class="hero-content">
-            <h2>Hi!</h2>&nbsp;
-            <h1>I am Angela Ogares</h1>
-            <p class="hero-job";><span>I'M AMBITIOUS PERSON</span></p>
-            <p class="hero-job-desc">I WORKED HARD AND PUT IN A LOT OF EFFORT TO MAKE IT HAPPEN.</p>
-
+            <div class="glowing-text">
+                <h2 class="animate-fade-in">Hi!</h2>
+                <h1 class="animate-fade-in delay-1">I am <span class="highlight">Angela Ogares</span></h1>
+                <p class="hero-job animate-fade-in delay-2"><span>I'M AMBITIOUS PERSON</span></p>
+                <p class="hero-job-desc animate-fade-in delay-3">I WORKED HARD AND PUT IN A LOT OF EFFORT TO MAKE IT HAPPEN.</p>
+            </div>
+            <div class="scroll-indicator">
+                <a href="#intro" class="scroll-down">
+                    <div class="mouse">
+                        <span></span>
+                    </div>
+                    <div class="arrow">
+                        <span></span>
+                    </div>
+                </a>
+            </div>
         </div>
-
-        <div class="hero-arrow page-scroll home-arrow-down">
-            <a class="" href="#intro"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
-        </div>
-
-    </div><
-
+    </header>
 
     <main id="main" class="site-main">
 
 		<section class="site-section section-hello" id="intro">
 			<div class="container">
-				<h2>HELLO &amp; WELCOME</h2>
-				<p class="section-subtitle"><span>PERSONAL INFORMATION</span></p>
+                <div class="section-header">
+                    <h2 class="glow-text">HELLO & WELCOME</h2>
+                    <p class="section-subtitle"><span>PERSONAL INFORMATION</span></p>
+                </div>
+                
 				<div class="row">
 					<div class="col-sm-4">
-						<div class="main-service text-right">
-							<div class="rectangle">
-								<i class="fa fa-calendar" aria-hidden="true"></i>
+						<div class="main-service text-right animate-on-scroll">
+							<div class="hexagon">
+								<i class="fa-solid fa-calendar-days"></i>
 							</div>
 							<h3>Date of Birth</h3>
 							<p>November 12, 2002</p>
 						</div>
-                        <div class="main-service text-right">
-                            <div class="rectangle">
-                                <i class="fa fa-hospital-o" aria-hidden="true"></i>
+                        <div class="main-service text-right animate-on-scroll">
+                            <div class="hexagon">
+                                <i class="fa-solid fa-hospital"></i>
                             </div>
                             <h3>Place of Birth</h3>
                             <p>Alabang, Muntinlupa City</p>
                         </div>
-                        <div class="main-service text-right">
-                            <div class="rectangle">
-                                <i class="fa fa-child" aria-hidden="true"></i>
+                        <div class="main-service text-right animate-on-scroll">
+                            <div class="hexagon">
+                                <i class="fa-solid fa-child"></i>
                             </div>
                             <h3>Age</h3>
                             <p>20 years old</p>
                         </div>
 					</div>
 					<div class="col-sm-4">
-						<div class="logo">
-							<img src="assets/img/oga-logo.jpg" alt="">
+						<div class="logo animate-on-scroll">
+							<img src="assets/img/oga-logo.jpg" alt="Angela Ogares Logo">
 						</div>
 					</div>
 					<div class="col-sm-4">
-                        <div class="main-service text-left">
-                            <div class="rectangle">
-                                <i class="fa fa-plane" aria-hidden="true"></i>
+                        <div class="main-service text-left animate-on-scroll">
+                            <div class="hexagon">
+                                <i class="fa-solid fa-plane"></i>
                             </div>
                             <h3>Nationality</h3>
                             <p>Philippines</p>
                         </div>
-						<div class="main-service text-left">
-							<div class="rectangle">
-								<i class="fa fa-window-maximize" aria-hidden="true"></i>
+						<div class="main-service text-left animate-on-scroll">
+							<div class="hexagon">
+								<i class="fa-solid fa-window-maximize"></i>
 							</div>
 							<h3>Language</h3>
-							<p>Filipino &amp; English </p>
+							<p>Filipino & English</p>
 						</div>
-                        <div class="main-service text-left">
-							<div class="rectangle">
-								<i class="fa fa-female" aria-hidden="true"></i>
+                        <div class="main-service text-left animate-on-scroll">
+							<div class="hexagon">
+								<i class="fa-solid fa-person-dress"></i>
 							</div>
 							<h3>Sex</h3>
 							<p>Female</p>
@@ -104,48 +107,51 @@
 			</div>
 		</section>
         
-		<section class="section-background section-quote background-overlay text-center">
+		<section class="section-background section-quote">
 			<div class="container">
-				<p>I was <span><b>determined to achieve</b></span> my goal and so I am ambitious <span><b>I worked hard</b></span> and put in a lot of effort to make it happen.</p>
+				<p class="animate-on-scroll">I was <span class="highlight">determined to achieve</span> my goal and so I am ambitious <span class="highlight">I worked hard</span> and put in a lot of effort to make it happen.</p>
 			</div>
 		</section>
 
-        <section class="site-section section-about text-center" id="about">
+        <section class="site-section section-about" id="about">
             <div class="container">
-                <h2>SKILLS Angela</h2>
-                <p class="section-subtitle"><span>The more that you learn, the more places you'll go.</span></p>
+                <div class="section-header">
+                    <h2 class="glow-text">SKILLS Angela</h2>
+                    <p class="section-subtitle"><span>The more that you learn, the more places you'll go.</span></p>
+                </div>
+                
                 <div class="row">
                     <div class="col-sm-3 col-xs-6">
-                        <div class="feature-about">
-                            <div class="medium-rectangle rectangle">
-                                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                        <div class="feature-about animate-on-scroll">
+                            <div class="hexagon">
+                                <i class="fa-solid fa-pen-to-square"></i>
                             </div>
                             <h3>DESIGNER</h3>
                             <p>In the last year I have been one of the Junior Officers of ACT and my role there is Designer that I have done poster or graphic designs for announcements and so on.</p>
                         </div>
                     </div>                    
                     <div class="col-sm-3 col-xs-6">
-                        <div class="feature-about">
-                            <div class="medium-rectangle rectangle">
-                                <i class="fa fa-camera" aria-hidden="true"></i>
+                        <div class="feature-about animate-on-scroll">
+                            <div class="hexagon">
+                                <i class="fa-solid fa-camera"></i>
                             </div>
                             <h3>PHOTOGRAPHER</h3>
                             <p>I love to take pictures, especially the scenery, because I know how to take a good angle for a beautiful picture.</p>
                         </div>
                     </div>                    
                     <div class="col-sm-3 col-xs-6">
-                        <div class="feature-about">
-                            <div class="medium-rectangle rectangle">
-                                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        <div class="feature-about animate-on-scroll">
+                            <div class="hexagon">
+                                <i class="fa-solid fa-basket-shopping"></i>
                             </div>
                             <h3>COOKING</h3>
-                            <p>I didn't really know how to cook, but my mom cooked at home. But I've always been a fan of the quarantine in the kitchen, and I've always been a fan of the quarantine in the kitchen. So now I'm cooking and thinking about what to eat at home.</p>
+                            <p>I didn't really know how to cook, but my mom cooked at home. But I've always been a fan of the quarantine in the kitchen. So now I'm cooking and thinking about what to eat at home.</p>
                         </div>
                     </div>                    
                     <div class="col-sm-3 col-xs-6">
-                        <div class="feature-about">
-                            <div class="medium-rectangle rectangle">
-                                <i class="fa fa-users" aria-hidden="true"></i>
+                        <div class="feature-about animate-on-scroll">
+                            <div class="hexagon">
+                                <i class="fa-solid fa-users"></i>
                             </div>
                             <h3>DANCING</h3>
                             <p>I went to school in Lyceum. The two of them joined the cultural dance.</p>
@@ -155,32 +161,33 @@
             </div>
         </section>
         
+        <!-- Family Section -->
         <section class="site-section section-team" id="team">
             <div class="container">
-                <h2>MEET MY FAMILY</h2>
-                <p class="section-subtitle"><span>The family is the first essential cell of human society.</span></p>
+                <div class="section-header">
+                    <h2 class="glow-text">MEET MY FAMILY</h2>
+                    <p class="section-subtitle"><span>The family is the first essential cell of human society.</span></p>
+                </div>
                 
                 <div class="team">
                     <div class="row">   
- 
                         <div class="col-md-3 col-xs-6">
-                            <div class="team-member">
-                                <div class="flipper">
-                                    <div class="team-member-front">
+                            <div class="team-member animate-on-scroll">
+                                <div class="card">
+                                    <div class="card-front">
                                         <div class="team-member-thumb">
-                                            <img src="assets/img/fam-1.jpg" class="img-res" alt="">
+                                            <img src="assets/img/fam-1.jpg" class="img-res" alt="Johnson Ogares">
                                         </div>  
                                         <p class="team-member-front-name">JOHNSON OGARES</p>
                                     </div>
-                                    <div class="team-member-back">
+                                    <div class="card-back">
                                         <div class="team-member-info">
                                             <h3 class="team-member-back-name">JOHNSON</h3>
                                             <p class="team-member-back-position">Father</p>
                                             <p class="team-member-back-info">His job is Security Guard, he is our provider. Dad is very patient with me and everyone. That's why I love him so much even though I'm not showy.</p>
-                                            <div class="social-icons small">
-                                                <a href="#" class="rectangle"><i class="fa fa-facebook"></i></a>
-                                                <a href="#" class="rectangle"><i class="fa fa-envelope"></i></a>
-
+                                            <div class="social-icons">
+                                                <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                                                <a href="#" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -189,68 +196,70 @@
                         </div>
 
                         <div class="col-md-3 col-xs-6">
-                            <div class="team-member">
-                                <div class="flipper">
-                                    <div class="team-member-front">
+                            <div class="team-member animate-on-scroll">
+                                <div class="card">
+                                    <div class="card-front">
                                         <div class="team-member-thumb">
-                                            <img src="assets/img/fam-2.jpg" class="img-res" alt="">
+                                            <img src="assets/img/fam-2.jpg" class="img-res" alt="Mary Ann Abellar">
                                         </div>
                                         <p class="team-member-front-name">MARY ANN ABELLAR</p>
                                     </div>
-                                    <div class="team-member-back">
+                                    <div class="card-back">
                                         <div class="team-member-info">
                                             <h3 class="team-member-back-name">MARRY ANN</h3>
                                             <p class="team-member-back-position">Mother</p>
                                             <p class="team-member-back-info">On the other hand, is a brave type, she is even braver than dad. Mama has the same attitude as me, not showy, but she loves me very much. She gave everything for us.</p>
-                                            <div class="social-icons small">
-                                                <a href="#" class="rectangle"><i class="fa fa-facebook"></i></a>
-                                                <a href="#" class="rectangle"><i class="fa fa-envelope"></i></a>
+                                            <div class="social-icons">
+                                                <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                                                <a href="#" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>         
                             </div>      
                         </div>
+                        
                         <div class="col-md-3 col-xs-6">
-                            <div class="team-member">
-                                <div class="flipper">
-                                    <div class="team-member-front">
+                            <div class="team-member animate-on-scroll">
+                                <div class="card">
+                                    <div class="card-front">
                                         <div class="team-member-thumb">
-                                            <img src="assets/img/family-3.png" class="img-res" alt="">
+                                            <img src="assets/img/family-3.png" class="img-res" alt="Aira Hope Ogares">
                                         </div> 
                                         <p class="team-member-front-name">AIRA HOPE OGARES</p>
                                     </div>
-                                    <div class="team-member-back">
+                                    <div class="card-back">
                                         <div class="team-member-info">
                                             <h3 class="team-member-back-name">AIRA HOPE</h3>
                                             <p class="team-member-back-position">Daughter</p>
                                             <p class="team-member-back-info">Aira is my daughter, I'm not ashamed of my daughter because she is very loving to my mom and dad. Even though she is still young, she already knows how to obey us. She wants us to appreciate what she does.</p>
-                                            <div class="social-icons small">
-                                                <a href="#" class="rectangle"><i class="fa fa-facebook"></i></a>
-                                                <a href="#" class="rectangle"><i class="fa fa-envelope"></i></a>
+                                            <div class="social-icons">
+                                                <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                                                <a href="#" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
                                             </div>
                                         </div>
                                     </div>  
                                 </div>         
                             </div>     
                         </div>
+                        
                         <div class="col-md-3 col-xs-6">
-                            <div class="team-member">
-                                <div class="flipper">
-                                    <div class="team-member-front">
+                            <div class="team-member animate-on-scroll">
+                                <div class="card">
+                                    <div class="card-front">
                                         <div class="team-member-thumb">
-                                            <img src="assets/img/family-4.png" class="img-res" alt="">
+                                            <img src="assets/img/family-4.png" class="img-res" alt="Nicole Betuin">
                                         </div>  
                                         <p class="team-member-front-name">NICOLE BETUIN</p>
                                     </div>
-                                    <div class="team-member-back">
+                                    <div class="card-back">
                                         <div class="team-member-info">
                                             <h3 class="team-member-back-name">NICOLE</h3>
                                             <p class="team-member-back-position">GIRLFRIEND</p>
                                             <p class="team-member-back-info">Nicole is my girlfriend, we are live in now. That is loving to me, especially to my daughter. She wants preparing for my things and food that is why I love her.</p>
-                                            <div class="social-icons small">
-                                                <a href="#" class="rectangle"><i class="fa fa-facebook"></i></a>
-                                                <a href="#" class="rectangle"><i class="fa fa-envelope"></i></a>
+                                            <div class="social-icons">
+                                                <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                                                <a href="#" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
                                             </div>
                                         </div>
                                     </div> 
@@ -262,179 +271,109 @@
             </div>
         </section>
 
-
+        <!-- Education History Section -->
         <section class="section-history" id="history">
             <div class="container">          
-                <div class="text-center section-diff-title">     
-                    <h2>A Look Back At My History</h2>
+                <div class="section-header">     
+                    <h2 class="glow-text">A Look Back At My History</h2>
                     <p>This my Education</p>
                 </div> 
 
-                <ul class="timeline">
-
-                    <li class="timeline-start">
-                        <div class="rectangle"><span>2023 2021</span></div>
-                    </li>
-
-                    <li class="timeline-inverted">
-                        <div class="rectangle timeline-rectangle"></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                               <div class="timeline-position">
-                                    <p>Pamantasan ng Lungsod ng Muntinlupa</p>
-                                </div>
-                                <div class="timeline-date">
-                                    <p>July 8</p>
-                                </div>
+                <div class="timeline">
+                    <div class="timeline-item left animate-on-scroll">
+                        <div class="timeline-content">
+                            <div class="timeline-date">
+                                <h3> 2021 - 2023</h3>
                             </div>
-                            <div class="timeline-body">
-                                <div class="timeline-body-thumb">
-                                    <img src="assets/img/plmun.jpg" class="img-res" alt="">
+                            <div class="timeline-info">
+                                <h4>Pamantasan ng Lungsod ng Muntinlupa</h4>
+                                <div class="timeline-img">
+                                    <img src="assets/img/plmun.jpg" alt="PLMUN">
                                 </div>
                                 <p>Graduate 2 years Course Associate in Computer Technology</p>
                             </div>
                         </div>
-                    </li>
+                    </div>
 
-                    <li class="timeline-start">
-                        <div class="rectangle"><span>2021 2019</span></div>
-                    </li>
-
-
-                    <li>
-                        <div class="rectangle timeline-rectangle"></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <div class="timeline-date">
-                                    <p>July 30</p>
-                                </div>
-                                <div class="timeline-position">
-                                    <p>Lyceum Of Alabang </p>
-                                </div>
+                    <div class="timeline-item right animate-on-scroll">
+                        <div class="timeline-content">
+                            <div class="timeline-date">
+                                <h3> 2019 - 2021</h3>
                             </div>
-                            <div class="timeline-body">
-                                <div class="timeline-body-thumb">
-                                    <img src="assets/img/loa.png" class="img-res" alt="">
+                            <div class="timeline-info">
+                                <h4>Lyceum Of Alabang</h4>
+                                <div class="timeline-img">
+                                    <img src="assets/img/loa.png" alt="Lyceum Of Alabang">
                                 </div>
                                 <p>Senior High School Graduate strand of Science, Technology, Engineering and Mathematics</p>
                             </div>
                         </div>
-                    </li>
+                    </div>
 
-                    <li class="timeline-start">
-                        <div class="rectangle"><span>2019 2016</span></div>
-                    </li>
- 
-                    <li class="timeline-inverted">
-                        <div class="rectangle timeline-rectangle"></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                               <div class="timeline-position">
-                                    <p>Pedro E. Diaz High School</p>
-                                </div>
-                                <div class="timeline-date">
-                                    <p>July</p>
-                                </div>
+                    <div class="timeline-item left animate-on-scroll">
+                        <div class="timeline-content">
+                            <div class="timeline-date">
+                                <h3> 2016 - 2019</h3>
                             </div>
-                            <div class="timeline-body">
-                                <div class="timeline-body-thumb">
-                                    <img src="assets/img/pedhs.jpg" class="img-res" alt="">
+                            <div class="timeline-info">
+                                <h4>Pedro E. Diaz High School</h4>
+                                <div class="timeline-img">
+                                    <img src="assets/img/pedhs.jpg" alt="Pedro E. Diaz High School">
                                 </div>
                                 <p>Graduate Junior High School</p>
                             </div>
                         </div>
-                    </li>
+                    </div>
 
-                    <li class="timeline-start">
-                        <div class="rectangle"><span>2016 2012</span></div>
-                    </li>
-
-                    <li>
-                        <div class="rectangle timeline-rectangle"></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <div class="timeline-date">
-                                    <p>July</p>
-                                </div>
-                                <div class="timeline-position">
-                                    <p style="color: white;">Filinvest Alabang Elementary School</p>
-                                </div>
+                    <div class="timeline-item right animate-on-scroll">
+                        <div class="timeline-content">
+                            <div class="timeline-date">
+                                <h3> 2012 - 2016</h3>
                             </div>
-                            <div class="timeline-body">
-                                <div class="timeline-body-thumb">
-                                    <img src="assets/img/elem.jpg" class="img-res" alt="">
+                            <div class="timeline-info">
+                                <h4>Filinvest Alabang Elementary School</h4>
+                                <div class="timeline-img">
+                                    <img src="assets/img/elem.jpg" alt="Filinvest Alabang Elementary School">
                                 </div>
                                 <p>Graduate Elementary</p>
                             </div>
                         </div>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </section>
  
-        <section class="section-background section-me background-overlay text-center">
-            <div class="container page-scroll">
-                <h2><b>Are You Impressed By My Work?</b></h2></br>
-                <button class="btn" onclick="location.href='Documents/Resume.pdf'">Download Pdf</button>
-            </div>
-        </section>
-
-        <section class="section-networks blue-bg">
+        <!-- Call to Action Section -->
+        <section class="section-background section-me">
             <div class="container">
-                <a href="#" class="rectangle">
-                    <i class="fa fa-facebook"></i>
-                </a>
-                <a href="#" class="rectangle">
-                    <i class="fa fa-instagram"></i>
-                </a>
+                <h2 class="animate-on-scroll"><b>Are You Impressed By My Work?</b></h2>
+                <button class="btn glow-btn animate-on-scroll" onclick="location.href='Documents/Resume.pdf'">Download Resume</button>
             </div>
         </section>
 
-    <footer id="colophon" class="site-footer">
-
-        <div class="container-fluid">
-
-            <div class="page-scroll">
-                <a href="#top" class="rectangle">
-                    <i class="fa fa-angle-double-up"></i>
-                </a>
+        <!-- Social Networks Section -->
+        <section class="section-networks">
+            <div class="container">
+                <a href="#" class="social-icon-large"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="social-icon-large"><i class="fa-brands fa-instagram"></i></a>
             </div>
-
-        </div>
-
-
-
-    </footer>
-
-
+        </section>
     </main>
 
+    <!-- Footer -->
+    <footer id="colophon" class="site-footer">
+        <div class="container-fluid">
+            <div class="page-scroll">
+                <a href="#top" class="back-to-top">
+                    <i class="fa-solid fa-angle-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
 
-    <script src="assets/js/jquery.min.js"></script>
-
-    <!-- Bootstrap core js | Do not Delete -->
-    <script src="assets/js/bootstrap.min.js"></script>
-
-    <!-- Bootstrap progressbar JS -->
-    <script src="assets/js/bootstrap-progressbar.min.js"></script>
-
-    <!-- Count To JS -->
-    <script src="assets/js/jquery.countTo.min.js"></script>
-
-    <!-- Easing JS -->
-    <script src="assets/js/jquery.easing.min.js"></script>
-
-    <!-- Shuffle JS -->
-    <script src="assets/js/jquery.shuffle.min.js"></script>
-
-    <!-- Slick Carousel JS -->
-    <script src="assets/js/slick.min.js"></script>
-
-    <!-- Touchswipe JS -->
-    <script src="assets/js/touchswipe.min.js"></script>
-
-    <!-- Custom JS -->
-    <script src="assets/js/script.js"></script>
-  
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
