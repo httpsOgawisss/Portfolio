@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const typewriterCursor = document.querySelector('.typewriter-cursor');
     
     if (typewriterText) {
-        const words = ['Web Developer', 'Software Engineer', 'UI/UX Designer', 'Problem Solver'];
+        const words = ['\u00A0\u00A0Developer', 'Software Engineer', 'UI/UX Designer', 'Problem Solver'];
         let wordIndex = 0;
         let charIndex = 0;
         let isDeleting = false;
